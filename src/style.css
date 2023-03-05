@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(39, 38, 37);
+}
+#app {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: auto auto auto;
+}
+
+.character_card {
+  display: flex;
+  background-color: rgb(163, 162, 162);
+  border-radius: 3%;
+}
+.character_image {
+  order: -1;
+  width: 47%;
+}
+.character_name {
+  width: 53%;
+}
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5% 0% 0% 5%;
+}
